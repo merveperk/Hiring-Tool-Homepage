@@ -1,3 +1,6 @@
+.primary-link {
+    text-decoration: none;
+}
 .bg-img{
     background: url(https://f.hubspotusercontent40.net/hubfs/9253440/Blog%20Images/collaboration-main-image1-1-1.jpeg) no-repeat center center/cover;
     position: relative;
