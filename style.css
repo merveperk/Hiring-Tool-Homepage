@@ -5,9 +5,13 @@ a{
     display: inline-block;
     padding: 10px;
     border-radius: 5px;
+    margin: 8px;
+}
+.btn-expand {
+    width: 200px;
 }
 .primary-link:hover {
-    background-color: #EEEEEE;
+    background-color: #f8f8f8;
 }
 .bg-img{
     background: url(https://f.hubspotusercontent40.net/hubfs/9253440/Blog%20Images/collaboration-main-image1-1-1.jpeg) no-repeat center center/cover;
