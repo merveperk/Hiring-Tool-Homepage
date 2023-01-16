@@ -24,6 +24,7 @@ a{
     
 }
 .dropdown-left {
+    font-size: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,7 +43,7 @@ a{
     position: absolute;
 }
 .small-font{
-    font-size: 12px;
+    font-size: 13px;
 }
 #job p{
     margin: 0;
