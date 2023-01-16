@@ -4,6 +4,13 @@ body {
 a{
     text-decoration: none;
 }
+.margin-padding-remove {
+    margin: 0;
+    padding: 0;
+}
+.fixed-container {
+    width: 768px;
+}
 .primary-link-color {
     color: #383CC1;
 }
@@ -41,3 +48,4 @@ a{
     margin: 0;
     padding: 0;
 }
+
