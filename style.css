@@ -5,10 +5,15 @@ a{
     text-decoration: none;
 }
 .primary-link {
-    display: inline-block;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border-radius: 5px;
-    margin: 8px;
+}
+.dropdown-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .btn-expand {
     width: 200px;
@@ -34,4 +39,7 @@ a{
 }
 .content{
     position: absolute;
+}
+.small-font{
+    font-size: 14px;
 }
