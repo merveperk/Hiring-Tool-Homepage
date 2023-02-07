@@ -45,9 +45,7 @@ ul{
 .content{
     position: absolute;
 }
-.small-font{
-    font-size: 13px;
-}
+
 .xxs-font{
     font-size: 5px;
 }
@@ -58,6 +56,11 @@ ul{
 .button-style{
     padding: 10px 40px;
     border-radius: 8px;
+    color: white;
+}
+.button-style:hover{
+    color: white !important;
+    background-color: #344BE7 !important;
 }
 .field-style{
     height: 50px;
