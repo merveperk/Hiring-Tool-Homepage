@@ -22,22 +22,19 @@
 </head>
 
 <body>
-  <div class="container mt-5 col-md-6 offset-md-3">
+  <!-- Job Description -->
+  <div class="container mt-5 col-md-6">
     <div class="row">
-      <div class="col-md-6 margin-padding-remove mb-2">
-        <img class="float-start margin-padding-remove"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
-          style="width: 50px" alt="">
+      <div class="col-md-10">
+        <h4 class="">Brand Manager</h4>
+        <p class="text-dark fs-6">at Hiring Tool</p>
+        <p class="text-secondary fs-6 ">Berlin, Germany</p>
       </div>
-      <div class="col-md-6 margin-padding-remove mb-2">
-        <button type="button" class="btn btn-primary btn-sm">Apply</button>
+      <div class="col-md-2 mt-3">
+        <button type="submit" class="btn btn-primary btn-sm">Apply</button>
       </div>
     </div>
-    <div class="row text-start mt-5">
-      <h4 class="margin-padding-remove">Brand Manager</h4>
-      <p class="text-dark fs-6 margin-padding-remove">at Hiring Tool</p>
-      <p class="text-secondary fs-6 margin-padding-remove">Berlin, Germany</p>
-    </div>
+    <hr>
     <div class="row mt-5">
       <h6>About Us:</h6>
       <p class="small-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere repellendus nesciunt modi
@@ -92,7 +89,8 @@
       <p></p>
     </div>
   </div>
-  <div class="container mt-5 col-md-6 offset-md-3" id="apply-form">
+  <!-- Apply Form -->
+  <div class="container mt-5 col-md-6 offset-md-3" id="form">
     <h6>Apply for this Job</h6>
     <form class="small-font mt-3">
       <div class="row mb-3">
@@ -113,14 +111,12 @@
           <input type="email" class="form-control" id="inputEmail3">
         </div>
       </div>
-    <div class="mb-3">
-      <label for="" class="form-label">Resume/CV <span class="text-danger">*</span></label>
-      <a href="">Attach</a>, <a href="">Dropbox</a>, <a href="">Google Drive</a>, <a href="">or enter manually</a>
-    </div>
-    <div class="mb-3">
-      <label for="" class="form-label">Cover Letter</label>
-      <a href="">Attach</a>, <a href="">Dropbox</a>, <a href="">Google Drive</a>, <a href="">or enter manually</a>
-    </div>
+      <div class="row mb-3">
+        <label for="inputPhone" class="col-sm-2 col-form-label">Phone</label>
+        <div class="col-sm-10">
+          <input type="phone" class="form-control" id="inputPhone">
+        </div>
+      </div>
       <button type="submit" class="btn btn-primary btn-sm">Apply</button>
     </form>
   </div>
