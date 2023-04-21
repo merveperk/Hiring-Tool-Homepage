@@ -41,6 +41,7 @@ ul{
 .bg-img{
     background: url(https://f.hubspotusercontent40.net/hubfs/9253440/Blog%20Images/collaboration-main-image1-1-1.jpeg) no-repeat center center/cover;
     position: relative;
+    height: 300px;
 }
 .content{
     position: absolute;
@@ -70,3 +71,12 @@ ul{
 .margin-bottom-add{
     margin-bottom: 100px;
 }
+.img-size{
+    width: 100px;
+}
+
+/* @media only screen and (max-width: 1050px){ 
+    .img-size{
+        width: 20%;
+    }
+} */
