@@ -72,14 +72,14 @@ ul{
     margin-bottom: 100px;
 }
 .img-size{
-    width: 100px;
+    width: 130px;
 }
 .cover-height{
-    width: 100%;
-    max-height: 300px;
-    background-image: url('banner.jpg');
-    background-size: cover;
-    border: 1px solid red;
+        width: 100%;
+      min-height: 300px;
+      background-image: url('gorsel.png');
+      background-position: center;
+      background-size: cover;
 }
 /* .cover-img{
     width: 100%;
@@ -87,7 +87,7 @@ ul{
 
 @media only screen and (max-width: 768px) {
 
-    .img-size {width: 80px;}}
+    .img-size {width: 100px;}}
     .img-thumbnail.position-absolute {
         top: 50%;
         left: 50%;
