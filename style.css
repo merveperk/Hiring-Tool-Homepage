@@ -75,8 +75,14 @@ ul {
   position: relative;
   width: 100px;
   height: 28px;
-  background: rgba(0, 0, 0, 0.08);
+  background: rgba(0, 0, 0, 0.04);
   border-radius: 8px;
+}
+.homepage-button:hover{
+  background: rgba(0, 0, 0, 0.08);
+}
+.homepage-button:active{
+  background: rgba(0, 0, 0, 0.12);
 }
 .field-style {
   height: 50px;
