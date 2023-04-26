@@ -37,11 +37,11 @@ ul {
 .primary-link:hover {
   background-color: #f8f8f8;
 }
-.bg-img {
-  background: url(https://f.hubspotusercontent40.net/hubfs/9253440/Blog%20Images/collaboration-main-image1-1-1.jpeg)
-    no-repeat center center/cover;
-  position: relative;
-  height: 300px;
+.custom-img {
+  background-image: url('gorsel.png'); 
+  min-height: 320px; 
+  background-position: center; 
+  background-size: cover;
 }
 .content {
   position: absolute;
