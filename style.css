@@ -74,6 +74,9 @@ ul {
 .img-size {
   width: 130px;
 }
+.fix-width{
+  max-width: 760px;
+}
 /* .cover-img{
     width: 100%;
 } */
