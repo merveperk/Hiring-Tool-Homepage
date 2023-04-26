@@ -63,6 +63,21 @@ ul {
   color: white !important;
   background-color: #344be7 !important;
 }
+.homepage-button {
+  font-size: 12px;
+  border-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 8px;
+  gap: 4px;
+  position: relative;
+  width: 100px;
+  height: 28px;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
 .field-style {
   height: 50px;
   border-radius: 8px;
@@ -74,7 +89,7 @@ ul {
 .img-size {
   width: 130px;
 }
-.fix-width{
+.fix-width {
   max-width: 760px;
 }
 /* .cover-img{
@@ -84,6 +99,7 @@ ul {
 @media only screen and (max-width: 768px) {
   .img-size {
     width: 100px;
+    margin-bottom: -38px;
   }
 }
 .img-thumbnail.position-absolute {
