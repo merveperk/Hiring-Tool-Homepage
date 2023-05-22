@@ -99,6 +99,9 @@ ul {
 .fix-width {
   max-width: 760px;
 }
+.fix-radius{
+  border-radius: 8px;
+}
 /* .cover-img{
     width: 100%;
 } */
